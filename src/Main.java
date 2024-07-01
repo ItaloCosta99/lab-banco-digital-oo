@@ -10,6 +10,8 @@ public class Main {
 
 		cc.depositar(100);
 		cc.transferir(100, poupanca);
+		cc.definirLimiteEmprestimo(2000);
+		cc.solicitarEmprestimo(100);
 		
 		cc.imprimirExtrato();
 		poupanca.imprimirExtrato();
